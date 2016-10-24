@@ -1,4 +1,4 @@
-<h1>IXD302</h1>
+<h1>IXD302 - Narrative and Storytelling</h1>
 </hr>
 
 <h2>Bird Project Deliverable</h2>
