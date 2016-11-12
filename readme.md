@@ -6,5 +6,3 @@
 
 
 [HTML](http://martinemcgrath.github.io/IXD302-bird-project/extinct-new-zealand-bird.html)
-
-[HTML](http://martinemcgrath.github.io/IXD302-bird-project/index.html)
