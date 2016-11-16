@@ -2,7 +2,7 @@
 
 <h2>Bird Project Deliverable</h2>
 
-- [Moodboard](http://martinemcgrath.github.io/IXD302-bird-project/images/moodboard.jpg) - Paper moodboard.
+- [Moodboard](http://martinemcgrath.github.io/IXD302-bird-project/images/moodboard.png) - Paper moodboard.
 
 - [Style Tile](http://martinemcgrath.github.io/IXD302-bird-project/images/style-tile.png) - Style tile displaying elements of how the webpage will look like.
 
