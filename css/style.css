@@ -7,15 +7,14 @@
 
 }
 
-p, h1, h2, h3, h4, blockquote, li
+p, h1, h2, h3, h4, blockquote, li, cite
 {
-        max-width: 700px;
+        max-width: 650px;
         min-width: 320px;
        font-family: 'News Cycle', sans-serif;
         margin: auto;   
-        background-colour: #fff;
-        color: #464647;
-        line-height: 2em;
+        background-colour: #ededed;
+        color: #333;
     }
 
 
@@ -26,10 +25,16 @@ header {
 }
 
 .small {
-    color: #1e1b33;
-    font-size: 0.7em;}
+    color: #ad886a;
+    margin-top: 0.5em;
+    font-size: 0.6em;}
+
+h1 { font-family: "myriad-std-tilt";
+        letter-spacing: 0.08em;}
+    
 
 h2 {
+    font-family: "myriad-std-tilt";
     text-align: center;
     font-size: 3em;
     font-weight: bold;
@@ -38,10 +43,17 @@ h2 {
     margin-bottom: 0.5em;}
 
 h3 {
-    color: #464647;
-    font-size: 2em;
-    font-weight: 700;}
+    color: #333;
+    font-size: 1em;
+    font-weight: 700;
+    margin-top: 7em;
+    font-family: "myriad-std-tilt";
+    text-transform: uppercase;
+}
 
+h4 {font-family: "myriad-std-tilt";
+    font-size: 2em;
+    text-align: center;}
 
 p {
     line-height: 1.8em;
@@ -54,11 +66,94 @@ p {
 /*--------------- HEADER ---------------*/
 
 .hero {
-    background-image: url(../images/hero.svg);
+    background-image: url(../images/hero-01.svg);
     background-size: cover;
     background-position: center center;
-    height: 1500px;
-    margin-top: -6em;
+    height: 1600px;
+    margin-top: -9em;
 }
 
-.title { margin-top: -57em;}
+h1 {color: #333;}
+
+.title { 
+    font-size: 2.2em;
+    margin-top: -39em;
+}
+
+.title2 {font-size: 6em;
+    font-family: 'Crushed', cursive;
+    
+        }
+
+.title3{font-size: 2.2em;
+        }
+
+.author { 
+    color: #333;
+    margin-top: 0.5em;
+    font-size: 0.8em;}
+
+
+/*--------------- REDISCOVERY SECTION---------------*/
+
+.intro {text-align: left;
+        margin-top: 48em;
+        padding: 3em;
+        font-size: 1.3em;
+        font-family: 'News Cycle', sans-serif;
+        color: #efd97f;}
+
+.purple { background: #1d1d33;
+          padding-bottom: 17em;}
+
+#rediscovery p {color: #fff;}
+
+.clouds {margin-top: -30em;}
+
+.clouds-bottom {margin-top: -1.5em;}
+
+/*--------------- NEW ZEALND SECTION ---------------*/
+
+.newzealand {margin-top: -0.1em;}
+
+
+
+/*--------------- WINGS SECTION---------------*/
+
+blockquote { 
+    text-align: center;}
+
+.quote { 
+        font-family: "myriad-std-tilt";
+        color: #fff;
+        margin-bottom: 0.5em;
+        margin-top: -11em;
+        font-size: 1.8em;
+        text-align: justify;
+        line-height: 1.5em;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        }
+
+cite {
+    font-family: "myriad-std-tilt";
+    color: #fff;
+    font-size: 1.2em;}
+
+.quote-bg { background-image: url(../images/quote-01.svg);
+    background-size: cover;
+    background-position: center center;
+    height: 570px;
+    margin-top: -25em;
+   }
+
+.survive { margin-top: 8em;}
+
+/*--------------- FOOTER ---------------*/
+
+footer {background: #1d1d33;
+        padding: 1em;
+        font-size: 0.8em;
+        text-align: center;}
+
+footer p {color: #fff;}
