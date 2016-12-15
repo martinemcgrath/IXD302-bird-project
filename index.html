@@ -10,8 +10,13 @@
 
     <link rel="shortcut icon" type="image/png" href="images/favicon.png">  
     <link href="css/style.css" type="text/css" rel="stylesheet"/>
+    
+    <script src="js/smooth-scroll.js"></script>
 
-<script src="js/smooth-scroll.js"></script>
+    <!-- Animation -->
+
+<link rel="stylesheet" href="css/animate.css">
+
 
     <!-- Google Fonts -->
 
@@ -22,28 +27,40 @@
 <script src="https://use.typekit.net/jvg5hyt.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
+
 </head>
+
+<span id="top"></span>
 
 <body>
 
 <header>
 
-<p class="small">The National Geographic Magazine - Organised for the Increase and Diffusion of Geographic Knowledge</p>
+<div class="parallax"></div>
 
+<div class="layer-two animated fadeInUp"></div>
+ 
+<div class="hideme">
+<a data-scroll href="#top"><img class="top" src="images/top-button.svg"/></a>
+</div>
 
-<div class="hero"></div>
+<p class="small">The National Geographic Magazine - Organised for the Increase and Diffusion of Geographic Knowledge</p>    
     
+<div class="animated fadeInUp"> 
 <h1 class="title">FINDING AN</h1>
 <h1 class="title2">'EXTINCT'</h1> 
 <h1 class="title3">NEW ZEALAND BIRD</h1>
+    
 
 <h3>Rediscovered by a Persevering Doctor, the Flightless, Colorful Takahe, or 'Wanderer', Struggles to Survive.</h3>
 
 <p class="author"><i>By R. V. Francis Smith</i></p>
+    </div>
+    
     
 </header>
     
-
+    
 <div class="purple">  
 <section id="rediscovery">
 
@@ -71,22 +88,16 @@
 <p>The export-driven country, whose chief trading partner used to be the United Kingdom, faltered in 1973 when Britain joined the European Union. The loss of preferential treatment prompted a search for new markets. Japan, Australia, and the U.S. now buy half of all exports, which include wool, mutton, lamb, beef, cheese, fish, and chemicals.</p>
 
 <p>New Zealand plays an active role in helping democratic nations and emerging Pacific island economies. It sent troops to East Timor when violence broke out in 1999, and it provided millions of dollars to the South Pacific island of Niue after it was devastated by a tropical cyclone in 2004. Niue and the Cook Islands enjoy a status of self-government in free association with New Zealand.</p>
-
-<h4>FAST FACTS</h4>
     
-<ul>
-<li>Population: 4,107,000</li>
-<li>Capital: Wellington</li>
-<li>Area: 270,534 km²</li>
-<li>Language: English, Maori</li>
-<li>Religion: Protestant, Roman Catholic</li>
-<li>Currency: New Zealand Dollar</li>
-<li>Life Expectancy: 78</li>
-<li>GDP per Capita: U.S. $20,100</li>
-<li>Literacy Percent: 99</li>
-    </ul>
+    </section>
+    
+    <h4>FAST FACTS</h4>
+    
+    <section class="facts">
+    
+<img class="fact-clouds" src="images/facts.svg"/>
 
-</section>
+    </section>
     
 <section>
 
@@ -111,9 +122,41 @@
 
 
 <h4>Estimated carrying capacity of islands with Takahe.</h4>
+    
+    <table>
+  <tr>
+    <th>ISLAND</th>
+    <th>SIZE (ha)</th>
+    <th>HABITAT</th>
+    <th>NUMBER OF TAKAHE PAIRS</th>
+  </tr>
+  <tr>
+    <td>Kapiti</td>
+    <td>2023</td>
+    <td>Mostly Forest</td>
+    <td><10</td>
+  </tr>
+  <tr>
+    <td>Mana</td>
+    <td>217</td>
+    <td>Mostly Grassland</td>
+    <td>>10</td>
+  </tr>
+  <tr>
+    <td>Maud</td>
+    <td>309</td>
+    <td>Forest/Gressland</td>
+    <td>7-10</td>
+  </tr>
+  <tr>
+    <td>Tiritiri</td>
+    <td>210</td>
+    <td>Forest/Gressland</td>
+    <td>10</td>
+</tr>
+</table>
 
-<img src="images/carrying-capacity.png" alt="Islands with Takahe" title="Carrying capacity of islands with Takahe"/>
-
+    
     
 
 </section>
@@ -182,6 +225,10 @@
 <p>New Zealand Facts: Copyright, 1995-2015, by National Geographic Society, Washington, D.C.</p>
     
 </footer>
+    
+<script>
+    smoothScroll.init();
+</script>
     
     
 </body>
