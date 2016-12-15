@@ -8,4 +8,4 @@
 
 - [HTML](http://martinemcgrath.github.io/IXD302-bird-project/extinct-new-zealand-bird.html) - Content organised using HTML.
 
-- [First Draft](http://martinemcgrath.github.io/IXD302-bird-project/index.html) - First draft of narrative website.
+<!--- [Final Website](http://martinemcgrath.github.io/IXD302-bird-project/index.html) - Final illustrated narrative website.--->
