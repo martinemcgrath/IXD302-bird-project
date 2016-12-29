@@ -25,10 +25,10 @@ header {
 }
 
 .small {
-    color: #ad886a;
+    color: #333;
     margin-top: 0.5em;
     font-size: 0.8em;
-    margin-top: -134.5em;
+    margin-top: -132em;
     margin-bottom: 8em;
     }
 
@@ -40,7 +40,7 @@ h2 {
     font-family: "myriad-std-tilt";
     color: #E05A5A;
     text-align: center;
-    font-size: 3em;
+    font-size: 3.5em;
     font-weight: bold;
     letter-spacing: 3px;
     margin-top: 1.5em;
@@ -50,7 +50,7 @@ h3 {
     color: #333;
     font-size: 1em;
     font-weight: 700;
-    margin-top: 9em;
+    margin-top: 8em;
     font-family: "myriad-std-tilt";
     text-transform: uppercase;
 }
@@ -69,6 +69,24 @@ p {
 
 
 /*--------------- HEADER ---------------*/
+
+
+    .star {
+        visibility: hidden;
+    }
+
+    .fadeIn {
+        -webkit-animation: animat_show 0.8s;
+        animation: animat_show 0.8s;
+        visibility: visible !important;
+    }
+
+    @-webkit-keyframes animat_show{
+        0%{opacity:0}
+        100%{opacity:1}
+    }
+
+
 
 .parallax {
     /* The image used */
@@ -89,18 +107,18 @@ p {
     background-size: cover;
     background-position: center center;
     height: 1200px;
-    margin-top: -20em;}
+    margin-top: -22em;}
 
 h1 {color: #333;}
 
 .title { 
-    font-size: 2.2em;
+    font-size: 2.5em;
 }
 
-.title2 {font-size: 6em;
+.title2 {font-size: 6.5em;
     }
 
-.title3{font-size: 2.2em;
+.title3{font-size: 2.5em;
         }
 
 .author { 
@@ -108,7 +126,7 @@ h1 {color: #333;}
     margin-top: 0.5em;
     font-size: 0.8em;}
 
-.top {
+.fadein {
     position: fixed;
     bottom: 30px;
     right: 20px;
@@ -128,7 +146,7 @@ a:hover img{
 /*--------------- REDISCOVERY SECTION---------------*/
 
 .intro {text-align: left;
-        margin-top: 54.1em;
+        margin-top: 52.4em;
         padding: 1em;
         font-size: 1.4em;
         font-family: 'News Cycle', sans-serif;
