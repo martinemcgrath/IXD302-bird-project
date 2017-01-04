@@ -5,7 +5,7 @@
     var map;
     function init() {
         var mapOptions = {
-            center: new google.maps.LatLng(34.307144,-48.387452),
+            center: new google.maps.LatLng(-40.852003, 174.916523),
             zoom: 1,
             zoomControl: true,
             zoomControlOptions: {
@@ -158,7 +158,7 @@
            if (locations[i][7] =='undefined'){ markericon ='';} else { markericon = locations[i][7];}
             marker = new google.maps.Marker({
                 icon: markericon,
-                position: new google.maps.LatLng(locations[i][5], locations[i][6]),
+                position: new google.maps.LatLng(-40.852003, 174.916523),
                 map: map,
                 title: locations[i][0],
                 desc: description,
@@ -173,7 +173,7 @@ link = '';     }
 <style>
     #map {
         height:400px;
-        width:850px;
+        width:100%;
     }
     .gm-style-iw * {
         display: block;
@@ -184,7 +184,7 @@ link = '';     }
         padding: 0;
     }
     .gm-style-iw a {
-        color: #4272db;
+        color: #E05A5A;
     }
 </style>
 
