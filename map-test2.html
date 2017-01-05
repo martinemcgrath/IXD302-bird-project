@@ -1,0 +1,110 @@
+<html>
+<head>
+<script src="jquery-2.1.4.js"></script>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<style>
+      #map {
+        height: 500px;
+      }
+</style>
+</head>
+<body>
+<div id="navbar"><span>Google Maps - Javascript API</span></div>
+<div id="wrapper">
+<div id="map"></div>
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 9,
+		  styles:[
+  {
+    "featureType": "administrative.land_parcel",
+    "elementType": "labels",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "poi",
+    "elementType": "labels.text",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.business",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.park",
+    "elementType": "labels.text",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "road.arterial",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway",
+    "elementType": "labels",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "road.local",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "road.local",
+    "elementType": "labels",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "water",
+    "elementType": "geometry.fill",
+    "stylers": [
+      {
+        "color": "#ffeb3b"
+      }
+    ]
+  }
+]
+		  
+        });
+	}
+	  
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC56PaT1lShAzT63coc7ORZs9W6NHnOI7M&callback=initMap"
+    async defer></script>
+</div>
+</body>
+</html>

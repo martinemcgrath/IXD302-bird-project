@@ -11,3 +11,5 @@
 - [Final Website](http://martinemcgrath.github.io/IXD302-bird-project/index.html) - Final illustrated narrative website.
 
 - [Map Prototype](http://martinemcgrath.github.io/IXD302-bird-project/map-test.html) - Final illustrated narrative website.
+
+- [Map Prototype](http://martinemcgrath.github.io/IXD302-bird-project/map-test2.html) - Final illustrated narrative website.
