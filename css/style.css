@@ -174,9 +174,16 @@ a:hover img{
 
 /*--------------- NEW ZEALND SECTION ---------------*/
 
-.description {}
+.description {
+        font-family: "myriad-std-tilt";
+        text-transform: uppercase;
+        text-align: justify;
+        line-height: 1.5em;
+        font-weight: bold;
+        font-size: 1.4em;
+        color: #E05A5A;}
 
-.newzealand {margin-top: -0.1em;}
+.newzealand {margin-top: 0.5em;}
 
 .facts {text-align: center;}
 
@@ -186,21 +193,38 @@ a:hover img{
  #map {
                 position: absolute;
                 width: 100%;
-                height: 510px;
+                height: 550px;
                 left: 0;
                 right: 0;
-                margin-top: 4em;
                 margin-bottom: 3em;
             }
 
 .trees { width: 100%;
-         margin-top: 10em;
+         margin-top: 11%;
          z-index: 10;
          position: absolute;}
 
 /*--------------- MOA ---------------*/
 
-.moa {margin-top: 40em;}
+.purple-two {
+    background: #1d1d33;}
+
+.purple-two p {color: #ffffff;}
+
+.moa {
+    padding-top: 12em;
+    }
+
+.moa-intro {
+        font-family: "myriad-std-tilt";
+        text-transform: uppercase;
+        text-align: justify;
+        line-height: 1.5em;
+        font-size: 1.4em;
+        font-weight: bold;
+        margin-top: 2em;
+        }
+
 
 /*--------------- WINGS SECTION---------------*/
 
@@ -228,7 +252,7 @@ cite {
     background-size: cover;
     background-position: center center;
     height: 570px;
-    margin-top: -25em;
+    margin-top: -30%;
    }
 
 .survive { margin-top: 8em;}
@@ -241,6 +265,7 @@ table {
     border-collapse: collapse;
     width: 50%;
     margin-top: 2em;
+    margin-bottom: 5em;
 }
 
 th, td {
@@ -272,3 +297,84 @@ footer {
 footer p {
     text-align: center;
     color: #fff;}
+
+
+
+
+/*--------------- MEDIA QUERIES---------------*/
+
+@media (max-width: 770px) {
+    
+     .intro {margin-top:51.5em;}
+    
+    .quote {margin-top: -12em;}
+    
+}
+
+@media (max-width: 550px) {
+.quote {margin-top: -14em;}
+}
+
+
+/*-----TABLET-------*/
+@media (max-width: 768px) {
+     
+p, h1, h2, h3, h4, blockquote, cite
+{
+        width: 80%;}
+    
+    h1 {font-size: 2.8em;}   
+    
+    .fadein {
+        right: 10px;}
+    
+	}
+
+/*--------SMARTPHONE--------*/
+@media (max-width: 500px) {
+
+    p, h1, h2, h3, h4, blockquote, cite
+{
+        width: 80%;}
+    
+    .title {font-size: 2em;}
+    
+    .title2{font-size: 5em;}
+    
+    .title3 {font-size: 2em;}
+    
+    h2{ font-size: 2.4em;}
+    
+    h4 {font-size: 1.5em;}
+    
+    #map {height: 400px;
+          margin-top: 0em;}
+    
+    .trees{ margin-top: 70%;}
+    
+    .fadein {
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    }
+    
+   .purple { 
+       height: 950px;}
+    
+    .intro {margin-top: 23.5em;}
+
+
+.layer-two { 
+    height: 500px;
+    margin-top: -21em;}
+    
+    .small{ margin-top: -79em;}
+    
+    h3 {
+        margin-top: 6em;}
+    
+    .quote {margin-top: -16em;}
+        
+    .survive { margin-top: 6em;}
+    
+   }
