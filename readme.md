@@ -8,9 +8,9 @@
 
 - [HTML](http://martinemcgrath.github.io/IXD302-bird-project/extinct-new-zealand-bird.html) - Content organised using HTML.
 
-- [Map Prototype One](http://martinemcgrath.github.io/IXD302-bird-project/map-test.html) - Final illustrated narrative website.
+- [Map Prototype One](http://martinemcgrath.github.io/IXD302-bird-project/map-test.html) - Exploring google map styles to create a map to show New Zealand.
 
-- [Map Prototype Two](http://martinemcgrath.github.io/IXD302-bird-project/map-test2.html) - Final illustrated narrative website.
+- [Map Prototype Two](http://martinemcgrath.github.io/IXD302-bird-project/map-test2.html) 
 
 
 - [Final Website](http://martinemcgrath.github.io/IXD302-bird-project/index.html) - Final illustrated narrative website.

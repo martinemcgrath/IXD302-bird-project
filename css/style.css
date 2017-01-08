@@ -18,6 +18,14 @@ p, h1, h2, h3, h4, blockquote, li, cite, table
     }
 
 
+.hidden{
+     opacity:0;
+}
+.visible{
+     opacity:1;
+}
+
+
 /*--------------- TYPOGRAPHY---------------*/
 
 header {
@@ -200,20 +208,18 @@ a:hover img{
             }
 
 .trees { width: 100%;
-         margin-top: 11%;
+         margin-top: 10%;
          z-index: 10;
          position: absolute;}
 
 /*--------------- MOA ---------------*/
 
 .purple-two {
-    background: #1d1d33;}
+    background: #1d1d33;
+    padding-top: 38em;
+    padding-bottom: 6em;}
 
 .purple-two p {color: #ffffff;}
-
-.moa {
-    padding-top: 12em;
-    }
 
 .moa-intro {
         font-family: "myriad-std-tilt";
@@ -286,11 +292,46 @@ tr:hover
     color: white;}
 
 
+
+/*--------------- LIMIT FOOD ---------------*/
+
+.purple-three {background: #1d1d33;
+                padding-bottom: 2em;
+                }
+
+.purple-three p { color: #ffffff;}
+
+.last {margin-top: -1.3em; }
+
+
+
+/*--------------- QUEST ---------------*/
+
+.quest{ background-image: url(../images/quest.svg);
+    background-size: cover;
+    background-position: center center;
+    height: 1350px;
+    margin-top: -42em;
+   }
+
+
+.banner { width:100%;
+        margin-top: -7em;
+         margin-bottom: -0.5em;}
+
+.thirty-year-quest { margin-top: -1em;}
+
+.thirty-year-quest p {color: #ffffff;}
+
+.darker-red h2{color: #E56761;}
+
+
 /*--------------- FOOTER ---------------*/
 
 footer {
-        background: #1d1d33;
-        padding: 1em;
+        background: #535367;
+        padding-top: 4em;
+        padding-bottom: 2em;
         font-size: 0.8em;
         text-align: center;}
 
@@ -299,9 +340,19 @@ footer p {
     color: #fff;}
 
 
-
-
 /*--------------- MEDIA QUERIES---------------*/
+
+@media (max-width: 1050px) {
+    
+    .trees {margin-top: 20%;}
+}
+
+
+@media (max-width: 820px) {
+    
+    .trees {margin-top: 30%;}
+}
+
 
 @media (max-width: 770px) {
     
@@ -311,9 +362,12 @@ footer p {
     
 }
 
-@media (max-width: 550px) {
-.quote {margin-top: -14em;}
+@media (max-width: 670px) {
+.quest {margin-top: -50em;}
+    
 }
+
+
 
 
 /*-----TABLET-------*/
@@ -323,10 +377,17 @@ p, h1, h2, h3, h4, blockquote, cite
 {
         width: 80%;}
     
+    
     h1 {font-size: 2.8em;}   
     
     .fadein {
         right: 10px;}
+    
+    .quest {margin-top: -46em}
+        
+    #map {height: 400px;}
+    
+     .trees{ margin-top:40%;}
     
 	}
 
@@ -336,6 +397,8 @@ p, h1, h2, h3, h4, blockquote, cite
     p, h1, h2, h3, h4, blockquote, cite
 {
         width: 80%;}
+    
+    p{font-size: 0.95em;}
     
     .title {font-size: 2em;}
     
@@ -350,7 +413,7 @@ p, h1, h2, h3, h4, blockquote, cite
     #map {height: 400px;
           margin-top: 0em;}
     
-    .trees{ margin-top: 70%;}
+    .trees{ margin-top:50%;}
     
     .fadein {
     right: 10px;
@@ -375,6 +438,20 @@ p, h1, h2, h3, h4, blockquote, cite
     
     .quote {margin-top: -16em;}
         
-    .survive { margin-top: 6em;}
+    .survive { margin-top: 8em;}
+    
+    .banner { margin-top: -2em;}
+    
+    .quest {margin-top: -46em;}
+    
+    .purple-two {padding-top: 27em;}
+    
     
    }
+
+@media (max-width: 450px) {
+    
+    .quest {margin-top: -49em;}
+    
+    .trees{ margin-top:63%;}
+}
